@@ -7,7 +7,7 @@ body {
 .sb-logo {
   width: 100%;
   height: 100%;
-  background: radial-gradient(rgba(0, 0, 0, 0.3), transparent), url('assets/bg.jpg');
+  background: radial-gradient(rgba(0, 0, 0, 0.5), transparent), url('assets/bg.jpg');
   background-size: cover;
   position: absolute;
   top: 0;
