@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #0a2633;
+}
+
+.sb-logo {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), transparent), url('assets/bg.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sb-logo img {
+  width: 640px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 800px) {
+  .sb-logo img {
+    width: 480px;
+  }
+}
+@media (max-width: 560px) {
+  .sb-logo img {
+    width: 280px;
+  }
+}
