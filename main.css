@@ -1,32 +1,49 @@
 body {
   height: 100%;
   margin: 0;
+  font-family: 'Roboto Slab', serif;
   background-color: #0a2633;
 }
 
-.sb-logo {
+h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 18px;
+}
+p a {
+  color: inherit;
+}
+
+.sb-info {
   width: 100%;
   height: 100%;
+  color: #fff;
+  text-align: center;
   background: radial-gradient(rgba(0, 0, 0, 0.5), transparent), url('assets/bg.jpg');
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
 }
-.sb-logo img {
+.sb-info .sb-wrap {
   width: 640px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.sb-info .sb-wrap img {
+  width: 100%;
+}
 @media (max-width: 800px) {
-  .sb-logo img {
+  .sb-info .sb-wrap {
     width: 480px;
   }
 }
 @media (max-width: 560px) {
-  .sb-logo img {
+  .sb-info .sb-wrap {
     width: 280px;
   }
 }
