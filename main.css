@@ -21,8 +21,9 @@ p a {
   height: 100%;
   color: #fff;
   text-align: center;
-  background: radial-gradient(rgba(0, 0, 0, 0.5), transparent), url('assets/bg.jpg');
+  background: radial-gradient(rgba(0, 0, 0, 0.5), transparent), url('assets/bg4.jpg');
   background-size: cover;
+  background-position: center center;
   position: absolute;
   top: 0;
   left: 0;
